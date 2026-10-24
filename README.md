@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+# ✅ ToDoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo de lista de tarefas desenvolvido para praticar e aprimorar conhecimentos em desenvolvimento front-end com React e TypeScript.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** — construção da interface
+- **TypeScript** — tipagem estática e maior segurança no código
+- **Vite** — ambiente de desenvolvimento e build
+- **CSS** — estilização da aplicação
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Gerenciamento de tarefas em uma interface simples e intuitiva
+- Organização das tarefas do dia a dia
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<!-- Adicione uma captura de tela do projeto aqui futuramente -->
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![Screenshot do TodoList](screenshots/todolist.png)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 💻 Como executar o projeto
+
+### Pré-requisitos
+
+- Node.js instalado
+- pnpm instalado
+
+### Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/lipefelizardo1/ToDoList.git
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd ToDoList
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Acesse o endereço exibido no terminal, normalmente `http://localhost:5173`.
+
+## 🌐 Deploy
+
+O projeto está publicado na Vercel.
+
+<!-- Insira aqui o link do site publicado -->
+
+## 👨‍💻 Autor
+
+**Lipe Felizardo**
+
+- GitHub: [@lipefelizardo1](https://github.com/lipefelizardo1)
+- Repositório: [ToDoList](https://github.com/lipefelizardo1/ToDoList)
